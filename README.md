@@ -3,22 +3,27 @@
 
 ```bash
 # Копируйте репозиторий и введите папку
-git clone https://github.com/GIScience/openrouteservice-examples.git
+git clone https://github.com/igmirnyy/Route-Optimisation.git
 cd Route-Optimisation
 
-# Install the requirements in a virtual env and activate it
+# Установите необходимые библиотеки в virtual env и активируйте ее
 python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements
 ```
 
-> Note: In case jupyter is already installed globally, and you want to use the local version, you can create a symlink to
-> the local jupyter with:
+> Замечание: В случае если jupyter уже установлен глобально, а вы хотите использовать локальную версию,
+> создайте ссылку на локальный jupyter с помощью
 >
 >`ln -s .venv/bin/jupyter jupyter`
 > 
-> Then, run jupyter commands with `./jupyter` instead. 
+> Затем запустите jupyter с помощью `./jupyter`. 
 > 
-### Launch the Jupyter server on the python directory
+### Запустите jupyter с директории python
 jupyter notebook python/
+
+> Замечание: Если у вас установлен PyCharm, то в главном меню выспользуйтесь опцией 'Get from VCS' и выберите git, вставив ссылку  
+https://github.com/igmirnyy/Route-Optimisation.git
+> В созданном проекте, перейдите в файл requirments.txt и нажмите на кнопку 'install requirements'
+> Затем в нижнем меню выберите 'Terminal' и введите jupyter notebook
