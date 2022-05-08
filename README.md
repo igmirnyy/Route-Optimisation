@@ -24,8 +24,9 @@ pip install -r requirements
 jupyter notebook python/
 
 ###Если у вас установлен PyCharm
-`В главном меню выспользуйтесь опцией 'Get from VCS' и выберите git, вставив ссылку  https://github.com/igmirnyy/Route-Optimisation.git`
 
-`В созданном проекте, перейдите в файл requirments.txt и нажмите на кнопку 'install requirements`
+В главном меню выспользуйтесь опцией 'Get from VCS' и выберите git, вставив ссылку  https://github.com/igmirnyy/Route-Optimisation.git
 
-`Затем в нижнем меню выберите 'Terminal' и введите jupyter notebook, чтобы запустить сервер jupyter`
+В созданном проекте, перейдите в файл requirments.txt и нажмите на кнопку 'install requirements
+
+Затем в нижнем меню выберите 'Terminal' и введите jupyter notebook, чтобы запустить сервер jupyter
