@@ -33,6 +33,10 @@ jupyter notebook python/
 ```
 ### Получение API ключа
 Зарегестрироваться на сайте [OpenRouteService](https://openrouteservice.org/dev/#/login)
+```bash
 Перейти на вкладку Dashboard
+
 Внизу страницы выбрать тип токена 'standard' и дать ему название
+
 Выше в списке появиться токен с названием и api ключом
+```
